@@ -1,0 +1,38 @@
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#todos h1 {
+  text-align: center;
+}
+
+#todos table {
+  margin: 0 auto;
+}
+
+#todos table th,
+#todos table td {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+#todos table th {
+  font-weight: bold;
+}
